@@ -466,9 +466,9 @@ html[data-theme="light"] .icon-btn .icon-moon {
 }
 
 .hero-title {
-  font-size: clamp(2.2rem, 5.4vw, 4rem);
+  font-size: clamp(1.85rem, 4.2vw, 3.1rem);
   font-weight: 800;
-  line-height: 1.05;
+  line-height: 1.1;
   margin: 0 0 18px 0;
 }
 

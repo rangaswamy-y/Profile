@@ -157,7 +157,7 @@
         tw.textContent = phrase.slice(0, cIndex);
         if (cIndex === phrase.length) {
           deleting = true;
-          return setTimeout(type, 1600);
+          return setTimeout(type, 2600);
         }
       } else {
         cIndex--;
@@ -165,10 +165,10 @@
         if (cIndex === 0) {
           deleting = false;
           pIndex = (pIndex + 1) % phrases.length;
-          return setTimeout(type, 280);
+          return setTimeout(type, 700);
         }
       }
-      setTimeout(type, deleting ? 28 : 60);
+      setTimeout(type, deleting ? 55 : 115);
     }
     type();
   }
