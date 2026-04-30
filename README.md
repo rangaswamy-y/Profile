@@ -51,9 +51,8 @@ RANGASWAMY-POROFILE/
     ├── img/
     │   ├── favicon.svg
     │   ├── og-card.svg
-    │   └── open-to-work-frame.png
-    └── docs/
-        └── Rangaswamy_Yagateela_Resume.docx
+    │   ├── open-to-work-frame.png
+    │   └── profile.png
 ```
 
 ---
@@ -103,8 +102,7 @@ those starting with `_`) as-is.
 - **Colors / theme** — tweak the CSS variables at the top of `assets/css/styles.css`.
 - **Sections / copy** — edit `index.html` directly, the structure is plain semantic HTML.
 - **Typewriter phrases** — edit the `phrases` array in `assets/js/main.js`.
-- **Resume download** — replace `assets/docs/Rangaswamy_Yagateela_Resume.docx` with your latest copy.
-- **Profile image** — drop a `profile.jpg` into `assets/img/` and replace the SVG initials inside `.avatar` with `<img src="assets/img/profile.jpg" alt="...">`.
+- **Profile image** — replace `assets/img/profile.png` (or swap the `src` in `.avatar-photo`) when you refresh your photo.
 
 ---
 
