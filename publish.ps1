@@ -13,7 +13,7 @@
 [CmdletBinding()]
 param(
   [string] $Token = $env:GITHUB_TOKEN,
-  [string] $Repo  = "rangaswamy71506/RANGASWAMY-POROFILE",
+  [string] $Repo  = "rangaswamy71506/RANGASWAMY-PROFILE",
   [string] $Branch = "main",
   [string] $UserName = "Rangaswamy Yagateela",
   [string] $UserEmail = "ranga75038@gmail.com"
@@ -81,4 +81,4 @@ Write-Host "  1. Open https://github.com/$Repo/settings/pages"
 Write-Host "  2. Source = 'Deploy from a branch'"
 Write-Host "  3. Branch = '$Branch', Folder = '/ (root)'  → Save"
 Write-Host "  4. Wait ~1 minute, then visit:"
-Write-Host "     https://rangaswamy71506.github.io/RANGASWAMY-POROFILE/" -ForegroundColor Green
+Write-Host "     https://rangaswamy71506.github.io/RANGASWAMY-PROFILE/" -ForegroundColor Green
