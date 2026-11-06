@@ -1,12 +1,12 @@
 # Rangaswamy Yagateela — SAP BTP CAPM Developer Portfolio
 
-[![Pages](https://img.shields.io/badge/GitHub_Pages-live-0a6ed1?logo=github)](https://rangaswamy-y.github.io/RANGASWAMY-PROFILE/)
+[![Pages](https://img.shields.io/badge/GitHub_Pages-live-0a6ed1?logo=github)](https://rangaswamy-y.github.io/Profile/)
 [![SAP BTP](https://img.shields.io/badge/SAP-BTP%20CAPM-0a6ed1)]()
 [![License](https://img.shields.io/badge/license-MIT-df6e21)]()
 
 A clean, modern, fully-responsive personal portfolio for **Rangaswamy Yagateela**, a Full Stack Developer with **5+ years** of hands-on experience on the **SAP Business Technology Platform**, specializing in **CAP (Node.js)**, **CDS**, **SAP HANA Cloud**, **OData V4**, and **AI / RAG pipelines** built on **SAP AI Core** and **Generative AI Hub**.
 
-> Live site: **https://rangaswamy-y.github.io/RANGASWAMY-PROFILE/**
+> Live site: **https://rangaswamy-y.github.io/Profile/**
 
 ---
 
@@ -38,7 +38,7 @@ A clean, modern, fully-responsive personal portfolio for **Rangaswamy Yagateela*
 ## Project structure
 
 ```
-RANGASWAMY-PROFILE/
+Profile/
 ├── index.html               # Main entry point
 ├── README.md
 ├── .nojekyll                # Disable Jekyll on GitHub Pages
@@ -85,12 +85,12 @@ Double-click `index.html`. Most features work directly from `file://`.
 
 This repo is meant to be hosted on GitHub Pages from the `main` branch root.
 
-1. Push the code to <https://github.com/rangaswamy-y/RANGASWAMY-PROFILE>.
+1. Push the code to <https://github.com/rangaswamy-y/Profile>.
 2. Go to **Settings → Pages**.
 3. Set **Source** to **Deploy from a branch**.
 4. Select **Branch:** `main` and **Folder:** `/ (root)`. Save.
 5. Wait ~1 minute. The site will be live at:
-   <https://rangaswamy-y.github.io/RANGASWAMY-PROFILE/>.
+   <https://rangaswamy-y.github.io/Profile/>.
 
 The `.nojekyll` file is included so GitHub Pages serves all files (including
 those starting with `_`) as-is.
